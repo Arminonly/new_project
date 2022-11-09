@@ -6,19 +6,9 @@
     'header header'
     'nav content';
   grid-gap: 5px;
+  width:1600px;
+  margin: 0 auto;
 }
-.header {
-  grid-area: header;
-  background-color: green;
-}
-.header img {
-  width: 60px;
-}
-.nav {
-  grid-area: nav;
-  background-color: burlywood;
-}
-.content {
-  grid-area: content;
-  background-color: cornflowerblue;
-}
+
+
+
