@@ -14,7 +14,7 @@ function App() {
           <a>Profile</a>
         </div>
         <div>
-          <a>Messages</a>
+          <a>Message</a>
         </div>
         <div>
           <a>News</a>
@@ -26,7 +26,21 @@ function App() {
           <a>Settings</a>
         </div>
       </nav>
-      <div className="content">Main content</div>
+      <div className="content">
+        <img
+          src="https://kartinkin.net/uploads/posts/2022-02/1645867502_7-kartinkin-net-p-turizm-kartinki-dlya-prezentatsii-7.jpg"
+          alt=""
+        />
+        <div>ava+content</div>
+        <div>
+          My posts
+          <div>New post</div>
+          <div>
+            <div>Post 1</div>
+            <div>Post 2</div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
