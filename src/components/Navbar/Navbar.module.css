@@ -4,4 +4,9 @@
 }
 .item.active {
   color: red;
+  text-decoration: underline;
+  font-size: bold;
+}
+.item {
+  color: white;
 }
