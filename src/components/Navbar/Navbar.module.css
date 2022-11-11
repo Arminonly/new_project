@@ -2,7 +2,12 @@
   grid-area: nav;
   background-color: burlywood;
 }
-.item.active {
+/* .item.active-link {
+  color: red;
+  text-decoration: underline;
+  font-size: bold;
+} */
+.active{
   color: red;
   text-decoration: underline;
   font-size: bold;
