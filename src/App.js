@@ -11,8 +11,8 @@ function App(props) {
       <Navbar />
       <div className="app-wrapper-content" t>
         <Dialogs />
-        {/* <Profile /> */}
       </div>
+      {/* <Profile /> */}
     </div>
   );
 }
