@@ -3,11 +3,10 @@ import s from './MyPosts.module.css';
 import Post from './Post/Post';
 
 export default function MyPosts(props) {
-  let posts = [
-    { id: 1, message: 'Hello', likeCounter: 10 },
-    { id: 2, message: 'How are you?', likeCounter: '20' }
-  ];
-  let postElements = posts.map(p =>
+
+ 
+
+  let postElements = props.posts.map(p =>
     <Post message={p.message} likeCounter={p.likeCounter} />
   );
   return (
