@@ -14,7 +14,7 @@ export default function Navbar() {
       </div>
       <div>
         <NavLink to="/dialogs" className={setActive}>
-          Message
+          Messages
         </NavLink>
       </div>
       <div>
