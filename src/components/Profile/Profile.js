@@ -1,15 +1,12 @@
 import React from 'react';
 import MyPosts from './MyPosts/MyPosts';
 import s from './Profile.module.css';
+import ProfileInfo from './ProfileInfo/ProfileInfo';
 
 export default function Profile() {
   return (
     <div>
-      <img
-        src="https://kartinkin.net/uploads/posts/2022-02/1645867502_7-kartinkin-net-p-turizm-kartinki-dlya-prezentatsii-7.jpg"
-        alt=""
-      />
-      <div>ava+content</div>
+      <ProfileInfo/>
       <MyPosts />
     </div>
   );
